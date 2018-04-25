@@ -3,9 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iHgMc.Hospital.Teaching", "iHgMc.Hospital.Teaching\iHgMc.Hospital.Teaching.csproj", "{E95841CC-806F-4DBF-B98D-627A30EDA019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iHgMc.AppManage", "iHgMc.AppManage\iHgMc.AppManage.csproj", "{E2A22039-C017-4591-8A1F-08A8C9BD4384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iHgMc.Retail.AgriculturalResources", "iHgMc.Retail.AgriculturalResources\iHgMc.Retail.AgriculturalResources.csproj", "{CE90B085-D0E8-46E4-BE8E-2F55D27D1F51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "项目文档", "项目文档", "{D6AB44E0-E6DA-4D5D-B551-E349CA6EF2B9}"
+	ProjectSection(SolutionItems) = preProject
+		iHgMc.AppManage.txt = iHgMc.AppManage.txt
+		iHgMc.Hospital.Teaching.txt = iHgMc.Hospital.Teaching.txt
+		iHgMc.Retail.AgriculturalResources.txt = iHgMc.Retail.AgriculturalResources.txt
+		整体解决方案说明.txt = 整体解决方案说明.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3E4238F1-D2F1-404E-8EE7-AE144BDA68DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iHgMc.Utils", "iHgMc.Utils\iHgMc.Utils.csproj", "{FC2EE2DF-7CC8-4780-9B36-F51CCE075B83}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E95841CC-806F-4DBF-B98D-627A30EDA019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95841CC-806F-4DBF-B98D-627A30EDA019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95841CC-806F-4DBF-B98D-627A30EDA019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95841CC-806F-4DBF-B98D-627A30EDA019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A22039-C017-4591-8A1F-08A8C9BD4384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A22039-C017-4591-8A1F-08A8C9BD4384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A22039-C017-4591-8A1F-08A8C9BD4384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A22039-C017-4591-8A1F-08A8C9BD4384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE90B085-D0E8-46E4-BE8E-2F55D27D1F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE90B085-D0E8-46E4-BE8E-2F55D27D1F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE90B085-D0E8-46E4-BE8E-2F55D27D1F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE90B085-D0E8-46E4-BE8E-2F55D27D1F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2EE2DF-7CC8-4780-9B36-F51CCE075B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2EE2DF-7CC8-4780-9B36-F51CCE075B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2EE2DF-7CC8-4780-9B36-F51CCE075B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2EE2DF-7CC8-4780-9B36-F51CCE075B83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC2EE2DF-7CC8-4780-9B36-F51CCE075B83} = {3E4238F1-D2F1-404E-8EE7-AE144BDA68DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FDC89CE-6100-43B8-9052-D773BD8849E0}
